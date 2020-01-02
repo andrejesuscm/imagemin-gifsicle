@@ -1,9 +1,9 @@
 {
 	"name": "imagemin-gifsicle",
-	"version": "6.0.1",
+	"version": "1.0.0",
 	"description": "Imagemin plugin for Gifsicle",
 	"license": "MIT",
-	"repository": "imagemin/imagemin-gifsicle",
+	"repository": "andrejesuscm/imagemin-gifsicle",
 	"engines": {
 		"node": ">=6"
 	},
