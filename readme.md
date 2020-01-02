@@ -1,4 +1,6 @@
-# imagemin-gifsicle [![Build Status](https://travis-ci.org/imagemin/imagemin-gifsicle.svg?branch=master)](https://travis-ci.org/imagemin/imagemin-gifsicle)
+# imagemin-gifsicle
+
+> This is an hard fork of the repo [imagemin-gifsicle](https://github.com/imagemin/imagemin-gifsicle) v6.0.1
 
 > Imagemin plugin for [Gifsicle](https://www.lcdf.org/gifsicle/)
 
