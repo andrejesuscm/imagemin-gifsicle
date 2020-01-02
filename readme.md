@@ -66,6 +66,19 @@ Type: `number`
 
 Reduce the number of distinct colors in each output GIF to num or less. Num must be between 2 and 256.
 
+#### Scale
+
+Type: `decimal`
+
+Scale the output GIF’s width and height by Xfactor and Yfactor. If Yfactor is not given, it defaults to Xfactor. Scaling happens after all input frames have been combined and before optimization. Decimal 0.1 to 1.
+
+### resizeWidth
+
+Type: `number`
+
+Resize to a given width in pixels, preserving aspect ratio.
+
+
 #### buffer
 
 Type: `Buffer`
