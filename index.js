@@ -26,6 +26,14 @@ module.exports = (options = {}) => input => {
 		args.push(`--colors=${options.colors}`);
 	}
 
+	if (options.scale) {
+		args.push(`--scale=${options.scale}`);
+	}
+
+	if (options.resizeWidth) {
+		args.push(`--resize-width=${options.resizeWidth}`);
+	}
+
 	return execa(gifsicle, args, {
 		encoding: null,
 		input
